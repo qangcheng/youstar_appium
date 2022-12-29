@@ -1,0 +1,375 @@
+2022-08-25 20:53:42,435 run.py[line:32] INFO start run test case
+2022-08-25 20:53:42,436 myunit.py[line:11] INFO ====setup====
+2022-08-25 20:53:42,438 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-25 20:53:56,249 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-25 20:53:56,253 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-25 20:53:57,402 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-25 20:53:59,402 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-25 20:53:59,904 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-25 20:54:01,133 login_page.py[line:61] INFO 进入vip登录页面，输入账号密码登录
+2022-08-25 20:54:01,133 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Alias name']
+2022-08-25 20:54:02,488 login_page.py[line:63] INFO 输入账号：chuiling950720@gmail.com
+2022-08-25 20:54:02,488 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Password']
+2022-08-25 20:54:03,796 login_page.py[line:65] INFO 输入密码:9507201995
+2022-08-25 20:54:03,796 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/text_input_end_icon
+2022-08-25 20:54:05,478 Youstar_conmmon.py[line:125] INFO get 进入vip登录页面，已输入账号密码登录 screenshot
+2022-08-25 20:54:06,023 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Login']
+2022-08-25 20:54:10,317 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2022-08-25 20:54:10,673 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_name
+2022-08-25 20:54:11,841 youstar_baseview.py[line:48] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_tag
+2022-08-25 20:54:12,140 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_name
+2022-08-25 20:54:14,406 Youstar_conmmon.py[line:125] INFO get 房间创建页面 screenshot
+2022-08-25 20:54:14,812 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Create a voice room']
+2022-08-25 20:54:16,236 Youstar_conmmon.py[line:125] INFO get 创建房间 screenshot
+2022-08-25 20:54:16,771 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_room_quit
+2022-08-25 20:54:18,540 room_page.py[line:67] INFO 创建房间成功
+2022-08-25 20:54:18,540 Youstar_conmmon.py[line:125] INFO get 创建房间成功 screenshot
+2022-08-25 20:54:20,535 myunit.py[line:15] INFO ==== TearDowm =====
+2022-08-25 20:54:21,734 myunit.py[line:11] INFO ====setup====
+2022-08-25 20:54:21,736 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-25 20:54:33,217 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-25 20:54:33,226 test_youstarlogin.py[line:19] INFO -----test_login_fail------
+2022-08-25 20:54:33,226 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-25 20:54:34,157 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-25 20:54:36,158 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-25 20:54:36,620 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-25 20:54:37,800 login_page.py[line:61] INFO 进入vip登录页面，输入账号密码登录
+2022-08-25 20:54:37,800 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Alias name']
+2022-08-25 20:54:38,602 login_page.py[line:63] INFO 输入账号：chuiling950720@gmail.com
+2022-08-25 20:54:38,602 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Password']
+2022-08-25 20:54:39,925 login_page.py[line:65] INFO 输入密码:9507205
+2022-08-25 20:54:39,926 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/text_input_end_icon
+2022-08-25 20:54:41,619 Youstar_conmmon.py[line:125] INFO get 进入vip登录页面，已输入账号密码登录 screenshot
+2022-08-25 20:54:42,206 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Login']
+2022-08-25 20:54:46,551 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2022-08-25 20:55:13,017 login_page.py[line:80] INFO 没有找到校验元素,登录失败报错,未找到首页元素:{('id', 'in.dradhanus.liveher:id/txt_room_create')}
+2022-08-25 20:55:13,017 Youstar_conmmon.py[line:125] INFO get 登录失败 screenshot
+2022-08-25 20:55:13,564 myunit.py[line:15] INFO ==== TearDowm =====
+2022-08-25 20:55:14,752 myunit.py[line:11] INFO ====setup====
+2022-08-25 20:55:14,754 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-25 20:55:28,360 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-25 20:55:28,363 test_youstarlogin.py[line:12] INFO -----test_login_success------
+2022-08-25 20:55:28,364 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-25 20:55:29,435 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-25 20:55:31,436 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-25 20:55:31,914 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-25 20:55:33,107 login_page.py[line:61] INFO 进入vip登录页面，输入账号密码登录
+2022-08-25 20:55:33,107 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Alias name']
+2022-08-25 20:55:33,976 login_page.py[line:63] INFO 输入账号：chuiling950720@gmail.com
+2022-08-25 20:55:33,976 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Password']
+2022-08-25 20:55:35,266 login_page.py[line:65] INFO 输入密码:9507201995
+2022-08-25 20:55:35,267 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/text_input_end_icon
+2022-08-25 20:55:36,953 Youstar_conmmon.py[line:125] INFO get 进入vip登录页面，已输入账号密码登录 screenshot
+2022-08-25 20:55:37,547 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Login']
+2022-08-25 20:55:41,839 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/btn_check_in
+2022-08-25 20:56:07,545 Youstar_conmmon.py[line:43] INFO 未找到签到弹窗
+2022-08-25 20:56:07,545 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2022-08-25 20:56:07,642 login_page.py[line:76] INFO 校验元素成功，登录成功,找到校验元素:{('id', 'in.dradhanus.liveher:id/txt_room_create')}
+2022-08-25 20:56:07,642 Youstar_conmmon.py[line:125] INFO get 登录成功 screenshot
+2022-08-25 20:56:08,088 myunit.py[line:15] INFO ==== TearDowm =====
+2022-08-25 20:57:57,327 run.py[line:32] INFO start run test case
+2022-08-25 20:57:57,327 myunit.py[line:11] INFO ====setup====
+2022-08-25 20:57:57,329 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-25 20:58:08,534 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-25 20:58:08,538 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-25 20:58:09,565 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-25 20:58:11,566 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-25 20:58:12,093 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-25 20:58:13,279 login_page.py[line:61] INFO 进入vip登录页面，输入账号密码登录
+2022-08-25 20:58:13,279 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Alias name']
+2022-08-25 20:58:14,563 login_page.py[line:63] INFO 输入账号：chuiling950720@gmail.com
+2022-08-25 20:58:14,564 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Password']
+2022-08-25 20:58:15,852 login_page.py[line:65] INFO 输入密码:9507201995
+2022-08-25 20:58:15,852 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/text_input_end_icon
+2022-08-25 20:58:17,538 Youstar_conmmon.py[line:125] INFO get 进入vip登录页面，已输入账号密码登录 screenshot
+2022-08-25 20:58:18,089 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Login']
+2022-08-25 20:58:22,313 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2022-08-25 20:58:22,543 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_name
+2022-08-25 20:58:22,869 youstar_baseview.py[line:48] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_tag
+2022-08-25 20:58:23,866 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_name
+2022-08-25 20:58:25,535 Youstar_conmmon.py[line:125] INFO get 房间创建页面 screenshot
+2022-08-25 20:58:25,974 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Create a voice room']
+2022-08-25 20:58:27,405 Youstar_conmmon.py[line:125] INFO get 创建房间 screenshot
+2022-08-25 20:58:27,871 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_room_quit
+2022-08-25 20:58:30,003 room_page.py[line:67] INFO 创建房间成功
+2022-08-25 20:58:30,003 Youstar_conmmon.py[line:125] INFO get 创建房间成功 screenshot
+2022-08-25 20:58:32,015 myunit.py[line:15] INFO ==== TearDowm =====
+2022-08-25 20:58:33,201 myunit.py[line:11] INFO ====setup====
+2022-08-25 20:58:33,203 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-25 20:58:46,706 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-25 20:58:46,711 test_youstarlogin.py[line:20] INFO -----test_login_fail------
+2022-08-25 20:58:46,711 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-25 20:58:47,766 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-25 20:58:49,767 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-25 20:58:50,229 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-25 20:58:52,198 login_page.py[line:61] INFO 进入vip登录页面，输入账号密码登录
+2022-08-25 20:58:52,198 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Alias name']
+2022-08-25 20:58:53,493 login_page.py[line:63] INFO 输入账号：chuiling950720@gmail.com
+2022-08-25 20:58:53,493 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Password']
+2022-08-25 20:58:54,801 login_page.py[line:65] INFO 输入密码:9507205
+2022-08-25 20:58:54,801 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/text_input_end_icon
+2022-08-25 20:58:56,491 Youstar_conmmon.py[line:125] INFO get 进入vip登录页面，已输入账号密码登录 screenshot
+2022-08-25 20:58:57,089 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Login']
+2022-08-25 20:59:01,442 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2022-08-25 20:59:28,229 login_page.py[line:80] INFO 没有找到校验元素,登录失败报错,未找到首页元素:{('id', 'in.dradhanus.liveher:id/txt_room_create')}
+2022-08-25 20:59:28,229 Youstar_conmmon.py[line:125] INFO get 登录失败 screenshot
+2022-08-25 20:59:28,792 myunit.py[line:15] INFO ==== TearDowm =====
+2022-08-25 20:59:29,942 myunit.py[line:11] INFO ====setup====
+2022-08-25 20:59:29,944 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-25 20:59:43,773 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-25 20:59:43,778 test_youstarlogin.py[line:12] INFO -----test_login_success------
+2022-08-25 20:59:43,778 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-25 20:59:44,859 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-25 20:59:46,859 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-25 20:59:47,346 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-25 20:59:48,546 login_page.py[line:61] INFO 进入vip登录页面，输入账号密码登录
+2022-08-25 20:59:48,546 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Alias name']
+2022-08-25 20:59:49,881 login_page.py[line:63] INFO 输入账号：chuiling950720@gmail.com
+2022-08-25 20:59:49,881 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Password']
+2022-08-25 20:59:51,194 login_page.py[line:65] INFO 输入密码:9507201995
+2022-08-25 20:59:51,194 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/text_input_end_icon
+2022-08-25 20:59:52,882 Youstar_conmmon.py[line:125] INFO get 进入vip登录页面，已输入账号密码登录 screenshot
+2022-08-25 20:59:53,405 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Login']
+2022-08-25 20:59:57,653 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/btn_check_in
+2022-08-25 21:00:24,426 Youstar_conmmon.py[line:43] INFO 未找到签到弹窗
+2022-08-25 21:00:24,426 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2022-08-25 21:00:24,528 login_page.py[line:76] INFO 校验元素成功，登录成功,找到校验元素:{('id', 'in.dradhanus.liveher:id/txt_room_create')}
+2022-08-25 21:00:24,528 Youstar_conmmon.py[line:125] INFO get 登录成功 screenshot
+2022-08-25 21:00:24,997 myunit.py[line:15] INFO ==== TearDowm =====
+2022-08-25 21:02:22,362 run.py[line:32] INFO start run test case
+2022-08-25 21:02:22,363 myunit.py[line:11] INFO ====setup====
+2022-08-25 21:02:22,365 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-25 21:02:33,683 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-25 21:02:33,687 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-25 21:02:34,744 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-25 21:02:36,744 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-25 21:02:37,235 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-25 21:02:38,447 login_page.py[line:61] INFO 进入vip登录页面，输入账号密码登录
+2022-08-25 21:02:38,447 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Alias name']
+2022-08-25 21:02:39,762 login_page.py[line:63] INFO 输入账号：chuiling950720@gmail.com
+2022-08-25 21:02:39,763 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Password']
+2022-08-25 21:02:41,083 login_page.py[line:65] INFO 输入密码:9507201995
+2022-08-25 21:02:41,083 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/text_input_end_icon
+2022-08-25 21:02:42,760 Youstar_conmmon.py[line:125] INFO get 进入vip登录页面，已输入账号密码登录 screenshot
+2022-08-25 21:02:43,304 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Login']
+2022-08-25 21:02:47,558 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2022-08-25 21:02:49,096 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_name
+2022-08-25 21:02:49,236 youstar_baseview.py[line:48] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_tag
+2022-08-25 21:02:49,491 room_page.py[line:55] INFO 选中的标签是:Pet
+2022-08-25 21:02:49,575 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_name
+2022-08-25 21:02:51,225 Youstar_conmmon.py[line:125] INFO get 房间创建页面 screenshot
+2022-08-25 21:02:51,710 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Create a voice room']
+2022-08-25 21:02:53,150 Youstar_conmmon.py[line:125] INFO get 创建房间 screenshot
+2022-08-25 21:02:53,633 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_room_quit
+2022-08-25 21:02:55,850 room_page.py[line:68] INFO 创建房间成功
+2022-08-25 21:02:55,851 Youstar_conmmon.py[line:125] INFO get 创建房间成功 screenshot
+2022-08-25 21:02:57,725 myunit.py[line:15] INFO ==== TearDowm =====
+2022-08-25 21:02:58,905 myunit.py[line:11] INFO ====setup====
+2022-08-25 21:02:58,907 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-25 21:03:09,933 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-25 21:03:09,936 test_youstarlogin.py[line:20] INFO -----test_login_fail------
+2022-08-25 21:03:09,937 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-25 21:03:11,009 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-25 21:03:13,009 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-25 21:03:13,507 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-25 21:03:15,505 login_page.py[line:61] INFO 进入vip登录页面，输入账号密码登录
+2022-08-25 21:03:15,505 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Alias name']
+2022-08-25 21:03:16,332 login_page.py[line:63] INFO 输入账号：chuiling950720@gmail.com
+2022-08-25 21:03:16,333 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Password']
+2022-08-25 21:03:17,162 login_page.py[line:65] INFO 输入密码:9507205
+2022-08-25 21:03:17,162 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/text_input_end_icon
+2022-08-25 21:03:18,858 Youstar_conmmon.py[line:125] INFO get 进入vip登录页面，已输入账号密码登录 screenshot
+2022-08-25 21:03:19,453 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Login']
+2022-08-25 21:03:23,748 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2022-08-25 21:03:50,731 login_page.py[line:80] INFO 没有找到校验元素,登录失败报错,未找到首页元素:{('id', 'in.dradhanus.liveher:id/txt_room_create')}
+2022-08-25 21:03:50,731 Youstar_conmmon.py[line:125] INFO get 登录失败 screenshot
+2022-08-25 21:03:51,307 myunit.py[line:15] INFO ==== TearDowm =====
+2022-08-25 21:03:52,468 myunit.py[line:11] INFO ====setup====
+2022-08-25 21:03:52,470 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-25 21:04:03,457 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-25 21:04:03,460 test_youstarlogin.py[line:12] INFO -----test_login_success------
+2022-08-25 21:04:03,460 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-25 21:04:04,374 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-25 21:04:06,375 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-25 21:04:06,823 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-25 21:04:08,024 login_page.py[line:61] INFO 进入vip登录页面，输入账号密码登录
+2022-08-25 21:04:08,024 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Alias name']
+2022-08-25 21:04:09,331 login_page.py[line:63] INFO 输入账号：chuiling950720@gmail.com
+2022-08-25 21:04:09,331 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Password']
+2022-08-25 21:04:10,646 login_page.py[line:65] INFO 输入密码:9507201995
+2022-08-25 21:04:10,646 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/text_input_end_icon
+2022-08-25 21:04:12,278 Youstar_conmmon.py[line:125] INFO get 进入vip登录页面，已输入账号密码登录 screenshot
+2022-08-25 21:04:12,815 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Login']
+2022-08-25 21:04:17,114 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/btn_check_in
+2022-08-25 21:04:43,275 Youstar_conmmon.py[line:43] INFO 未找到签到弹窗
+2022-08-25 21:04:43,275 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2022-08-25 21:04:43,361 login_page.py[line:76] INFO 校验元素成功，登录成功,找到校验元素:{('id', 'in.dradhanus.liveher:id/txt_room_create')}
+2022-08-25 21:04:43,361 Youstar_conmmon.py[line:125] INFO get 登录成功 screenshot
+2022-08-25 21:04:43,802 myunit.py[line:15] INFO ==== TearDowm =====
+2022-08-26 18:57:25,445 run.py[line:32] INFO start run test case
+2022-08-26 18:57:25,501 myunit.py[line:11] INFO ====setup====
+2022-08-26 18:57:25,537 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-26 18:58:03,301 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-26 18:58:03,350 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-26 18:58:04,555 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-26 18:58:06,555 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-26 18:58:07,314 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-26 18:58:08,467 login_page.py[line:61] INFO 进入vip登录页面，输入账号密码登录
+2022-08-26 18:58:08,467 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Alias name']
+2022-08-26 18:58:09,880 login_page.py[line:63] INFO 输入账号：chuiling950720@gmail.com
+2022-08-26 18:58:09,881 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Password']
+2022-08-26 18:58:10,658 login_page.py[line:65] INFO 输入密码:9507201995
+2022-08-26 18:58:10,658 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/text_input_end_icon
+2022-08-26 18:58:12,312 Youstar_conmmon.py[line:125] INFO get 进入vip登录页面，已输入账号密码登录 screenshot
+2022-08-26 18:58:13,158 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Login']
+2022-08-26 18:58:17,401 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2022-08-26 18:58:18,522 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_name
+2022-08-26 18:58:19,967 youstar_baseview.py[line:48] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_tag
+2022-08-26 18:58:20,250 room_page.py[line:55] INFO 选中的标签是:Emotion
+2022-08-26 18:58:20,354 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_name
+2022-08-26 18:58:22,658 Youstar_conmmon.py[line:125] INFO get 房间创建页面 screenshot
+2022-08-26 18:58:23,368 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Create a voice room']
+2022-08-26 18:58:24,810 Youstar_conmmon.py[line:125] INFO get 创建房间 screenshot
+2022-08-26 18:58:25,314 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_room_quit
+2022-08-26 18:58:27,159 room_page.py[line:68] INFO 创建房间成功
+2022-08-26 18:58:27,159 Youstar_conmmon.py[line:125] INFO get 创建房间成功 screenshot
+2022-08-26 18:58:31,663 myunit.py[line:15] INFO ==== TearDowm =====
+2022-08-26 18:58:32,910 myunit.py[line:11] INFO ====setup====
+2022-08-26 18:58:32,912 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-26 18:59:22,451 run.py[line:32] INFO start run test case
+2022-08-26 18:59:22,452 myunit.py[line:11] INFO ====setup====
+2022-08-26 18:59:22,455 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-26 18:59:36,094 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-26 18:59:36,100 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-26 18:59:55,285 myunit.py[line:11] INFO ====setup====
+2022-08-26 18:59:55,287 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-26 19:00:03,488 run.py[line:32] INFO start run test case
+2022-08-26 19:00:03,489 myunit.py[line:11] INFO ====setup====
+2022-08-26 19:00:03,491 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-26 19:00:22,760 run.py[line:32] INFO start run test case
+2022-08-26 19:00:22,761 myunit.py[line:11] INFO ====setup====
+2022-08-26 19:00:22,763 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-26 19:02:08,060 run.py[line:32] INFO start run test case
+2022-08-26 19:02:08,061 myunit.py[line:11] INFO ====setup====
+2022-08-26 19:02:08,063 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-26 19:03:03,488 run.py[line:32] INFO start run test case
+2022-08-26 19:03:03,490 myunit.py[line:11] INFO ====setup====
+2022-08-26 19:03:03,492 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-26 19:03:16,670 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-26 19:03:16,676 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-26 19:03:17,701 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-26 19:03:19,702 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-26 19:03:20,270 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-26 19:03:20,293 myunit.py[line:15] INFO ==== TearDowm =====
+2022-08-26 19:03:21,510 myunit.py[line:11] INFO ====setup====
+2022-08-26 19:03:21,512 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-26 19:03:33,918 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-26 19:03:33,923 test_youstarlogin.py[line:20] INFO -----test_login_fail------
+2022-08-26 19:03:33,923 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-26 19:03:35,175 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-26 19:03:37,176 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-26 19:03:37,735 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-26 19:03:38,929 login_page.py[line:61] INFO 进入vip登录页面，输入账号密码登录
+2022-08-26 19:03:38,929 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Alias name']
+2022-08-26 19:03:39,758 login_page.py[line:63] INFO 输入账号：chuiling950720@gmail.com
+2022-08-26 19:03:39,758 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Password']
+2022-08-26 19:03:40,522 login_page.py[line:65] INFO 输入密码:9507205
+2022-08-26 19:03:40,522 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/text_input_end_icon
+2022-08-26 19:03:42,183 Youstar_conmmon.py[line:125] INFO get 进入vip登录页面，已输入账号密码登录 screenshot
+2022-08-26 19:03:42,824 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Login']
+2022-08-26 19:03:47,083 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2022-08-26 19:04:13,466 login_page.py[line:80] INFO 没有找到校验元素,登录失败报错,未找到首页元素:{('id', 'in.dradhanus.liveher:id/txt_room_create')}
+2022-08-26 19:04:13,466 Youstar_conmmon.py[line:125] INFO get 登录失败 screenshot
+2022-08-26 19:04:14,132 myunit.py[line:15] INFO ==== TearDowm =====
+2022-08-26 19:04:15,347 myunit.py[line:11] INFO ====setup====
+2022-08-26 19:04:15,349 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-26 19:04:28,170 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-26 19:04:28,173 test_youstarlogin.py[line:12] INFO -----test_login_success------
+2022-08-26 19:04:28,174 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-26 19:04:29,140 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-26 19:04:31,141 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-26 19:04:31,727 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-26 19:04:32,923 login_page.py[line:61] INFO 进入vip登录页面，输入账号密码登录
+2022-08-26 19:04:32,923 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Alias name']
+2022-08-26 19:04:33,814 login_page.py[line:63] INFO 输入账号：chuiling950720@gmail.com
+2022-08-26 19:04:33,814 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Password']
+2022-08-26 19:04:35,125 login_page.py[line:65] INFO 输入密码:9507201995
+2022-08-26 19:04:35,125 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/text_input_end_icon
+2022-08-26 19:04:36,831 Youstar_conmmon.py[line:125] INFO get 进入vip登录页面，已输入账号密码登录 screenshot
+2022-08-26 19:04:37,478 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Login']
+2022-08-26 19:04:41,748 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/btn_check_in
+2022-08-26 19:05:01,021 run.py[line:32] INFO start run test case
+2022-08-26 19:05:01,022 myunit.py[line:11] INFO ====setup====
+2022-08-26 19:05:01,024 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-26 19:05:08,795 Youstar_conmmon.py[line:43] INFO 未找到签到弹窗
+2022-08-26 19:05:08,795 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2022-08-26 19:05:08,807 login_page.py[line:80] INFO 没有找到校验元素,登录失败报错,未找到首页元素:{('id', 'in.dradhanus.liveher:id/txt_room_create')}
+2022-08-26 19:05:08,807 Youstar_conmmon.py[line:125] INFO get 登录失败 screenshot
+2022-08-26 19:05:08,819 myunit.py[line:15] INFO ==== TearDowm =====
+2022-08-26 19:05:13,759 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-26 19:05:13,762 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-26 19:05:14,777 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-26 19:05:16,778 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-26 19:05:17,344 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-26 19:05:18,504 login_page.py[line:61] INFO 进入vip登录页面，输入账号密码登录
+2022-08-26 19:05:18,504 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Alias name']
+2022-08-26 19:05:19,375 login_page.py[line:63] INFO 输入账号：chuiling950720@gmail.com
+2022-08-26 19:05:19,375 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Password']
+2022-08-26 19:05:20,737 login_page.py[line:65] INFO 输入密码:9507201995
+2022-08-26 19:05:20,737 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/text_input_end_icon
+2022-08-26 19:05:22,456 Youstar_conmmon.py[line:125] INFO get 进入vip登录页面，已输入账号密码登录 screenshot
+2022-08-26 19:05:23,127 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Login']
+2022-08-26 19:05:27,408 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2022-08-26 19:05:29,248 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_name
+2022-08-26 19:05:30,662 youstar_baseview.py[line:48] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_tag
+2022-08-26 19:05:30,885 room_page.py[line:55] INFO 选中的标签是:Star sign
+2022-08-26 19:05:30,966 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_name
+2022-08-26 19:05:33,275 Youstar_conmmon.py[line:125] INFO get 房间创建页面 screenshot
+2022-08-26 19:05:33,819 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Create a voice room']
+2022-08-26 19:05:35,199 Youstar_conmmon.py[line:125] INFO get 创建房间 screenshot
+2022-08-26 19:05:35,661 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_room_quit
+2022-08-26 19:05:37,545 room_page.py[line:68] INFO 创建房间成功
+2022-08-26 19:05:37,546 Youstar_conmmon.py[line:125] INFO get 创建房间成功 screenshot
+2022-08-26 19:05:39,988 myunit.py[line:15] INFO ==== TearDowm =====
+2022-08-26 19:05:41,132 myunit.py[line:11] INFO ====setup====
+2022-08-26 19:05:41,134 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-26 19:05:52,879 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-26 19:05:52,885 test_youstarlogin.py[line:20] INFO -----test_login_fail------
+2022-08-26 19:05:52,885 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-26 19:05:53,940 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-26 19:05:55,941 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-26 19:05:56,641 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-26 19:05:57,829 login_page.py[line:61] INFO 进入vip登录页面，输入账号密码登录
+2022-08-26 19:05:57,829 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Alias name']
+2022-08-26 19:05:58,718 login_page.py[line:63] INFO 输入账号：chuiling950720@gmail.com
+2022-08-26 19:05:58,718 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Password']
+2022-08-26 19:05:59,579 login_page.py[line:65] INFO 输入密码:9507205
+2022-08-26 19:05:59,579 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/text_input_end_icon
+2022-08-26 19:06:01,278 Youstar_conmmon.py[line:125] INFO get 进入vip登录页面，已输入账号密码登录 screenshot
+2022-08-26 19:06:02,129 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Login']
+2022-08-26 19:06:06,434 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2022-08-26 19:06:33,195 login_page.py[line:80] INFO 没有找到校验元素,登录失败报错,未找到首页元素:{('id', 'in.dradhanus.liveher:id/txt_room_create')}
+2022-08-26 19:06:33,195 Youstar_conmmon.py[line:125] INFO get 登录失败 screenshot
+2022-08-26 19:06:34,037 myunit.py[line:15] INFO ==== TearDowm =====
+2022-08-26 19:06:35,194 myunit.py[line:11] INFO ====setup====
+2022-08-26 19:06:35,196 Youstar_cadps.py[line:51] INFO ....Start App.....
+2022-08-26 19:06:46,901 Youstar_cadps.py[line:53] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': 'true', 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2022-08-26 19:06:46,905 test_youstarlogin.py[line:12] INFO -----test_login_success------
+2022-08-26 19:06:46,905 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_other
+2022-08-26 19:06:47,859 login_page.py[line:50] INFO 进入VIP登录集合列表
+2022-08-26 19:06:49,860 Youstar_conmmon.py[line:125] INFO get 登录集合入口 screenshot
+2022-08-26 19:06:50,426 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/view_premium
+2022-08-26 19:06:51,612 login_page.py[line:61] INFO 进入vip登录页面，输入账号密码登录
+2022-08-26 19:06:51,612 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Alias name']
+2022-08-26 19:06:52,490 login_page.py[line:63] INFO 输入账号：chuiling950720@gmail.com
+2022-08-26 19:06:52,490 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Password']
+2022-08-26 19:06:53,308 login_page.py[line:65] INFO 输入密码:9507201995
+2022-08-26 19:06:53,308 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/text_input_end_icon
+2022-08-26 19:06:54,983 Youstar_conmmon.py[line:125] INFO get 进入vip登录页面，已输入账号密码登录 screenshot
+2022-08-26 19:06:55,757 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='Login']
+2022-08-26 19:07:00,102 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/btn_check_in
+2022-08-26 19:07:26,685 Youstar_conmmon.py[line:43] INFO 未找到签到弹窗
+2022-08-26 19:07:26,685 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2022-08-26 19:07:26,776 login_page.py[line:76] INFO 校验元素成功，登录成功,找到校验元素:{('id', 'in.dradhanus.liveher:id/txt_room_create')}
+2022-08-26 19:07:26,777 Youstar_conmmon.py[line:125] INFO get 登录成功 screenshot
+2022-08-26 19:07:27,318 myunit.py[line:15] INFO ==== TearDowm =====
