@@ -1,7 +1,7 @@
 import os
 import random
 
-from common.desired_cadps import desired_conf
+from common.Youstar_cadps import youstar_desired_conf
 from selenium.common.exceptions import TimeoutException
 import logging
 import time

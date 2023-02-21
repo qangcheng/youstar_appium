@@ -48,8 +48,8 @@ class Common(BaseView):
         """签到流程"""
         try:
             self.findElement(self.checkin_button)
-        except NoSuchElementException:
-            logging.info("未找到签到弹窗")
+        except Exception as e:
+            logging.info("未找到签到弹窗:{}".format(e))
         else:
             self.getScreenShot("签到弹窗")
             self.click(self.checkin_button)

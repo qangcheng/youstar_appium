@@ -373,3 +373,68 @@
 2022-08-26 19:07:26,776 login_page.py[line:76] INFO 校验元素成功，登录成功,找到校验元素:{('id', 'in.dradhanus.liveher:id/txt_room_create')}
 2022-08-26 19:07:26,777 Youstar_conmmon.py[line:125] INFO get 登录成功 screenshot
 2022-08-26 19:07:27,318 myunit.py[line:15] INFO ==== TearDowm =====
+2023-02-21 15:42:08,328 Youstar_cadps.py[line:44] INFO ....Start App.....
+2023-02-21 15:42:19,995 Youstar_cadps.py[line:46] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': True, 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2023-02-21 15:42:20,017 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_phone
+2023-02-21 15:42:23,360 login_page.py[line:110] INFO 已进入手机登录页面
+2023-02-21 15:42:24,374 Youstar_conmmon.py[line:134] INFO get 手机登录页面 screenshot
+2023-02-21 15:42:24,965 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher: id / ftv_flag_code
+2023-02-21 16:19:59,077 Youstar_cadps.py[line:44] INFO ....Start App.....
+2023-02-21 16:20:13,438 Youstar_cadps.py[line:46] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': True, 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2023-02-21 16:20:13,448 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_phone
+2023-02-21 16:20:16,110 login_page.py[line:110] INFO 已进入手机登录页面
+2023-02-21 16:20:17,111 Youstar_conmmon.py[line:134] INFO get 手机登录页面 screenshot
+2023-02-21 16:20:17,627 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/ftv_flag_code
+2023-02-21 16:20:17,845 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_search
+2023-02-21 16:20:19,514 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_search
+2023-02-21 16:20:19,711 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_search
+2023-02-21 16:20:20,914 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='China']
+2023-02-21 16:20:21,700 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_phonelogin_number
+2023-02-21 16:20:22,767 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_phonelogin_login
+2023-02-21 16:20:24,464 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_password
+2023-02-21 16:20:25,138 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_confirm
+2023-02-21 16:20:25,851 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/btn_check_in
+2023-02-21 16:20:29,196 Youstar_conmmon.py[line:134] INFO get 签到弹窗 screenshot
+2023-02-21 16:20:29,708 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/btn_check_in
+2023-02-21 16:20:29,826 Youstar_conmmon.py[line:56] INFO 完成签到奖励
+2023-02-21 16:20:30,838 Youstar_conmmon.py[line:134] INFO get 已完成签到 screenshot
+2023-02-21 16:20:32,533 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/iv_close_old
+2023-02-21 16:26:03,074 Youstar_cadps.py[line:44] INFO ....Start App.....
+2023-02-21 16:26:14,675 Youstar_cadps.py[line:46] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': True, 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2023-02-21 16:26:14,687 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_phone
+2023-02-21 16:26:17,381 login_page.py[line:110] INFO 已进入手机登录页面
+2023-02-21 16:26:18,392 Youstar_conmmon.py[line:134] INFO get 手机登录页面 screenshot
+2023-02-21 16:26:18,950 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/ftv_flag_code
+2023-02-21 16:26:19,123 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_search
+2023-02-21 16:26:20,934 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_search
+2023-02-21 16:26:21,070 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_search
+2023-02-21 16:26:22,264 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='China']
+2023-02-21 16:26:23,015 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_phonelogin_number
+2023-02-21 16:26:24,106 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_phonelogin_login
+2023-02-21 16:26:25,820 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_password
+2023-02-21 16:26:26,492 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_confirm
+2023-02-21 16:26:27,226 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/btn_check_in
+2023-02-21 16:29:12,701 Youstar_cadps.py[line:44] INFO ....Start App.....
+2023-02-21 16:29:24,304 Youstar_cadps.py[line:46] INFO 自动化配置参数：{'platformName': 'Android', 'platformVersion': '12', 'deviceName': 'Galaxy S10e', 'udid': 'R38M20C7D8P', 'noReset': False, 'unicodeKeyboard': True, 'resetKeyboard': True, 'appPackage': 'in.dradhanus.liveher', 'appActivity': 'in.dradhanus.liveher.SplashActivity'}
+2023-02-21 16:29:24,316 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/img_login_phone
+2023-02-21 16:29:26,931 login_page.py[line:110] INFO 已进入手机登录页面
+2023-02-21 16:29:27,947 Youstar_conmmon.py[line:134] INFO get 手机登录页面 screenshot
+2023-02-21 16:29:28,442 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/ftv_flag_code
+2023-02-21 16:29:28,603 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_search
+2023-02-21 16:29:30,412 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_search
+2023-02-21 16:29:30,541 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_search
+2023-02-21 16:29:31,195 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》xpath,value值-》//*[@text='China']
+2023-02-21 16:29:32,132 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_phonelogin_number
+2023-02-21 16:29:33,112 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_phonelogin_login
+2023-02-21 16:29:34,879 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/edt_password
+2023-02-21 16:29:35,541 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_confirm
+2023-02-21 16:29:36,224 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/btn_check_in
+2023-02-21 16:30:01,939 Youstar_conmmon.py[line:52] INFO 未找到签到弹窗:Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\QH110\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2023-02-21 16:30:01,939 youstar_baseview.py[line:39] INFO 正在定位元素信息：定位方式-》id,value值-》in.dradhanus.liveher:id/txt_room_create
+2023-02-21 16:30:02,013 login_page.py[line:129] INFO 校验元素成功，登录成功,找到校验元素:{('id', 'in.dradhanus.liveher:id/txt_room_create')}
+2023-02-21 16:30:02,013 Youstar_conmmon.py[line:134] INFO get 登录成功 screenshot

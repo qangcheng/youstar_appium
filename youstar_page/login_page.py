@@ -20,6 +20,15 @@ class LoginPage(Common):
     login_button = (By.XPATH, "//*[@text='Login']")
     Plaintext_button = (By.ID, "in.dradhanus.liveher:id/text_input_end_icon")
 
+    # 手机登录切换元素
+    flag_codebutton = (By.ID, "in.dradhanus.liveher:id/ftv_flag_code")
+    phone_seach_button = (By.ID, "in.dradhanus.liveher:id/edt_search")
+    input_phonebutton = (By.ID, "in.dradhanus.liveher:id/edt_phonelogin_number")
+    phone_loginbutton = (By.ID, "in.dradhanus.liveher:id/txt_phonelogin_login")
+    china_button = (By.XPATH, "//*[@text='China']")
+    phonepassword_button = (By.ID, "in.dradhanus.liveher:id/edt_password")
+    confirm_button = (By.ID, "in.dradhanus.liveher:id/txt_confirm")
+
     # 搜索校验按钮
     createroom_button = (By.ID, "in.dradhanus.liveher:id/txt_room_create")
 
@@ -70,6 +79,49 @@ class LoginPage(Common):
             self.click_login()
             time.sleep(4)
 
+    def click_phonelogin(self):
+        """点击手机号登录"""
+        self.click(self.phone_button)
+
+    def click_flag_code(self):
+        """进入国家选择页面"""
+        self.click(self.flag_codebutton)
+
+    def seach_countries(self, number):
+        """选择国家并输入登录手机号"""
+        self.click(self.phone_seach_button)
+        self.clear(self.phone_seach_button)
+        self.sendKeys(self.phone_seach_button, number)
+        self.click(self.china_button)
+
+    def input_phonenumber(self, phone_number):
+        """输入手机号码"""
+        self.sendKeys(self.input_phonebutton, phone_number)
+        self.click(self.phone_loginbutton)
+
+    def input_phonepassword(self, passwordnumber):
+        """输入密码"""
+        self.sendKeys(self.phonepassword_button, passwordnumber)
+        self.click(self.confirm_button)
+
+    def phone_login(self, number, phone_number, passwordnumber):
+        """手机号登录流程"""
+        self.click_phonelogin()
+        logging.info("已进入手机登录页面")
+        time.sleep(1)
+        self.getScreenShot("手机登录页面")
+        self.click_flag_code()
+        self.seach_countries(number)
+        try:
+            self.phone_loginbutton
+        except Exception as e:
+            logging.info("未进入到登录页面报错：{}".format(e))
+            self.getScreenShot("登录页面进入失败")
+        else:
+            self.input_phonenumber(phone_number)
+            time.sleep(1)
+            self.input_phonepassword(passwordnumber)
+
     # 校验是否进入主页面，做unittest需要校验是否成功
     def check_search(self):
         try:
@@ -86,7 +138,8 @@ class LoginPage(Common):
 if __name__ == '__main__':
     drriver = youstar_desired_conf()
     login = LoginPage(drriver)
-    login.vip_loin("chuiling950720@gmail.com", "9507201995")  # 测试环境
-    # login.vip_loin("yz@gmail.com", "123456")  # 正式环境
+    # login.vip_loin("chuiling950720@gmail.com", "9507201995")  # 测试环境
+    # # login.vip_loin("yz@gmail.com", "123456")  # 正式环境
+    login.phone_login(number=86, phone_number="013632721415", passwordnumber="950720")
     login.check_process()
     login.check_search()

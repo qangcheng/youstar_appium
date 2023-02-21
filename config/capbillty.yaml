@@ -5,7 +5,7 @@ noReset: false
 resetKeyboard: true
 appPackage: in.dradhanus.liveher
 appActivity: in.dradhanus.liveher.SplashActivity
-unicodeKeyboard: 'true'
+unicodeKeyboard: true
 udid: R38M20C7D8P
 ip: 127.0.0.1
 port: 4723
