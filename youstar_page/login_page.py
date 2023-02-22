@@ -21,7 +21,7 @@ class LoginPage(Common):
     Plaintext_button = (By.ID, "in.dradhanus.liveher:id/text_input_end_icon")
 
     # 手机登录切换元素
-    flag_codebutton = (By.ID, "in.dradhanus.liveher:id/ftv_flag_code")
+    country_codebutton = (By.ID, "in.dradhanus.liveher:id/img_country_flag")
     phone_seach_button = (By.ID, "in.dradhanus.liveher:id/edt_search")
     input_phonebutton = (By.ID, "in.dradhanus.liveher:id/edt_phonelogin_number")
     phone_loginbutton = (By.ID, "in.dradhanus.liveher:id/txt_phonelogin_login")
@@ -85,7 +85,8 @@ class LoginPage(Common):
 
     def click_flag_code(self):
         """进入国家选择页面"""
-        self.click(self.flag_codebutton)
+        self.click(self.country_codebutton)
+        self.getScreenShot("选择国家页面")
 
     def seach_countries(self, number):
         """选择国家并输入登录手机号"""
@@ -105,7 +106,14 @@ class LoginPage(Common):
         self.click(self.confirm_button)
 
     def phone_login(self, number, phone_number, passwordnumber):
-        """手机号登录流程"""
+        """
+        手机号登录流程化
+        :param number:   各个国家电话区号
+        :param phone_number:  手机号码
+        :param passwordnumber: 登录密码
+        :return:   手机登录流程
+        """
+
         self.click_phonelogin()
         logging.info("已进入手机登录页面")
         time.sleep(1)

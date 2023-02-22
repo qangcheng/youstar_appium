@@ -101,8 +101,32 @@ class BaseView(object):
         return print(self.driver.contexts)
 
     # Schamea跳转
-    def Schamea_Jump(self, link):
-        return os.popen("adb -d shell am start -a android.intent.action.VIEW -d" + link)
+    def schamea_Jump(self, link):
+        os.popen("adb -d shell am start -a android.intent.action.VIEW -d" + link)
+
+    def a(self, element):
+        """封装多个场景需要判断的条件，已true和False来判断"""
+        try:
+            self.findElement(element)
+            return True
+        except Exception as e:
+            logging.exception(e)
+            return False
+    #
+    # def check_login_succeus(self):
+    #     """判断是否登录成功"""
+    #     if self.a(self.live_button):
+    #         logging.info("主播登录")
+    #         self.getScreenShot("主播live页")
+    #         return True
+    #     elif self.a(self.data_card):
+    #         logging.info("非live主播登录")
+    #         self.getScreenShot("首页列表")
+    #         return True
+    #     else:
+    #         logging.info("登录失败")
+    #         self.getScreenShot("登录失败截图")
+    #         return False
 
 
 if __name__ == '__main__':
